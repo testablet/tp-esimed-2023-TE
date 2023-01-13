@@ -1,10 +1,9 @@
 {
-  "name": "nodejs",
+  "name": "correction",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "start:dev": "nodemon index.js"
   },
@@ -15,6 +14,13 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.3.0",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "luxon": "^3.2.1",
+    "sequelize": "^6.28.0",
+    "uuid": "^9.0.0"
   }
 }
