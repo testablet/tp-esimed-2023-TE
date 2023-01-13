@@ -40,9 +40,6 @@ router.get('/test-sqlite', async (req, res) => {
   res.send(users)
 });
 
-
-
-
 const initLoggerMiddlware = (app) => {
   app.use((req, res, next) => {
     const begin = new DateTime(new Date());

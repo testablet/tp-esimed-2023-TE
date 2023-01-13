@@ -10,7 +10,7 @@ class WebServer {
 
   constructor() {
     this.app = express();
-
+    require('dotenv').config()
     initializeConfigMiddlewares(this.app);
     this._initializeRoutes();
     initializeErrorMiddlwares(this.app);
